@@ -1,0 +1,44 @@
+section {
+	text-align: center;
+}
+img {
+	object-fit: cover;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+
+}
+.input {
+	text-align: center;
+
+}
+.symbol {
+	margin: 0 20px;
+	padding-bottom: 20px;
+}
+
+.number-input-text-error {
+	height: 17px;
+}
+
+.limit-input-text-error {
+	height: 17px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.card {
+    margin:10px;
+}
+
+.images {
+
+}
+
