@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.work.9.css">
+</head>
+<body onload="LoadImages()">
+    <main>
+		<section>
+			<h1>Final task</h1>
+			<div class="wrapper">
+				<div class="input">
+					<h3>Номер страницы</h3>
+					<input id="number-input" class="nomer" type="number" placeholder="Диапазон от 1 до 10 ">
+					<div class="number-input-text-error"></div>
+				</div>
+				<div class="symbol">📜</div>
+				<div class="input">
+					<h3>Лимит</h3>
+					<input id="limit-input" class="limit" type="text" placeholder="Диапазон от 1 до 10 ">
+					<div class="limit-input-text-error"></div>
+				</div>
+			</div>
+				<div class="btn">
+					<h3>Запрос</h3>
+					<button onclick="twoInputs(getFirstInputValue(), getSecondInputValue())" class="j-btn" type="submit">Сделай запрос</button>
+				</div>
+				<div class="content"></div>
+		</section>
+		<div class="images">
+		</div>
+	</main>
+	<script src="home.work.9.js"></script>
+</body>
+</html>
